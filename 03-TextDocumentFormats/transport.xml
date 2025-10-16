@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TransportMeans>
+    <Mean vehicle="Train" type="Railbound">
+        <comfort>high</comfort>
+        <travelTime>medium</travelTime>
+        <safety>high</safety>
+        <cost>low</cost>
+    </Mean>
+    
+    <Mean vehicle="Car" type="Road">
+        <comfort>high</comfort>
+        <travelTime>low</travelTime>
+        <safety>medium</safety>
+        <cost>high</cost>
+    </Mean>
+
+    <Mean vehicle="Bicycle" type="Road">
+        <comfort>low</comfort>
+        <travelTime>high</travelTime>
+        <safety>low</safety>
+        <cost>low</cost>
+    </Mean>
+</TransportMeans>
