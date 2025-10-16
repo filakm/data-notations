@@ -66,7 +66,14 @@
         ]
     },
     {
-
-
+        "name": "Rossmann",
+        "founded": 1972,
+        "headquarters":"Burgwedel, Germany",
+        "employees": 64700,
+        "products": [
+            "Cosmetics",
+            "Accessories",
+            "Skin care products"
+        ]  
     }
 ]
