@@ -1,0 +1,14 @@
+<email>
+    <sender>
+        <name>"your email"</name>
+    </sender>
+    <recipient>
+        <name>"recipient's email"</name>
+    </recipient>
+    <subject>
+        <text>"subject of the email"</text>
+    </subject>
+        <messagebody>
+            <text>"email content"</text>
+        </messagebody>
+</email>
