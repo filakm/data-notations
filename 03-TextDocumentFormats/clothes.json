@@ -60,20 +60,20 @@
         "headquarters":"Herzogenaurach, Germany",
         "employees": 22214,
         "products": [
-            "Sportswear",
+            "Sports Wear",
             "Football Shoes",
             "Accessories"
         ]
     },
     {
-        "name": "Rossmann",
-        "founded": 1972,
-        "headquarters":"Burgwedel, Germany",
-        "employees": 64700,
+        "name": "Reserved",
+        "founded": 1998,
+        "headquarters":"Gdansk, Poland",
+        "employees": 30000,
         "products": [
-            "Cosmetics",
+            "Casual Wear",
             "Accessories",
-            "Skin care products"
+            "Sports Wear"
         ]  
     }
 ]
