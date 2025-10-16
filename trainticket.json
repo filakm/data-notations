@@ -1,0 +1,10 @@
+{
+    "Ticket Provider": "PKP INTERCITY S.A",
+    "Ticket ID": "000003630",
+    "Discount": false,
+    "From": "Central Warsaw",
+    "Train start": 15.00,
+    "To": "Lublin Glowny",
+    "Esstimated Arrival": 17.00,
+    "Price": "19,00 PLN"
+}
