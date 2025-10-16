@@ -9,4 +9,14 @@
         </specs>
         <price currency="USD">799</price>
     </smartphone>
+    
+    <smartphone brand="Iphone" model="13" releaseYear="2021">
+        <specs>
+            <screenSize unit="inch">6.1</screenSize>  
+            <batteryCapacity unit="mAH">3227</batteryCapacity>
+            <storage unit="GB">128</storage>
+            <camera unit="MP">12</camera>
+        </specs>
+        <prince currency="USD">300</prince>
+    </smartphone>
 </smartphones>
