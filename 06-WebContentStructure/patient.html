@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Data Form</title>
+    <style>
+        textarea {
+            resize: none
+        }
+    </style>
 </head>
+
+
 <body>
     <h1>Patient Data Form</h1>
     <form>
         <label for="fname">First Name:</label><br>
         <input type="text" id="fname" name="fname"><br><br>
-        
+
         <label for="lname">Last Name:</label><br>
         <input type="text" id="lname" name="lname"><br><br>
-        
+
         <label for="age">Age:</label><br>
         <input type="number" id="age" name="age"><br><br>
-        
-        <label >Gender:</label><br>
+
+        <label for="DoBirth">Date of birth</label><br>
+        <input type="date" id="DoBirth" name="DoBirth"><br><br>
+
+        <label for="PoBirth">Place of birth</label><br>
+        <input type="text" id="PoBirth" name="PoBirth"><br><br>
+
+        <label>Gender:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
@@ -25,12 +39,26 @@
 
         <label for="height">Height (cm):</label><br>
         <input type="number" id="height" name="height"><br><br>
-        
+
         <label for="weight">Weight (kg):</label><br>
         <input type="number" id="weight" name="weight"><br><br>
-        
+
+
+        <input type="checkbox" id="illness1" name="illness1" value="Lung Problems">
+        <label for="illness1">Lung Problems</label><br>
+        <input type="checkbox" id="illness2" name="illness2" value="Heart Problems">
+        <label for="illness2">Heart Problems</label><br>
+        <input type="checkbox" id="illness3" name="illness3" value="Movement Problems">
+        <label for="'illness3">Movement Problems</label><br>
+        <input type="checkbox" id="illness4" name="illness4" value="Mental Problems">
+        <label for="illness4">Mental Problems</label><br><br>
+
+        <label for="NftP">Notes:</label><br>
+        <textarea id="NftP" name="NftP" rows="5" cols="40"></textarea>
+        <br><br><br>
         <button type="button">Ok</button>
         <button type="button">Cancel</button>
     </form>
 </body>
+
 </html>
