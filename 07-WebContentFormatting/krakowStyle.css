@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    border: 5px solid darkolivegreen;
+    table-layout: fixed;
+    width:100%
+}
+
+th {
+    background-color: darkgreen;
+    border-collapse: collapse;
+    border-color: black;
+    padding: 10px;
+    color:lightgray
+}
+
+th.landmark {
+    width: 25%;
+}
+
+th.yearOf {
+    width: auto
+}
+
+th.ArchStyle {
+   width: auto
+}
+
+th.Sign {
+    width: 40%;
+}
+
+td {
+    padding: 10px;
+    border-collapse: collapse;
+    border-color: black;
+    text-align: center;
+    color:darkblue;
+}
+tr:hover {background-color:yellowgreen;
+
+}
